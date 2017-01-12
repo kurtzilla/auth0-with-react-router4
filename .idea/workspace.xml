@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9985c7cd-b805-4bec-8231-78c122053f45" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -43,8 +42,8 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="240">
+              <caret line="67" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
               <folding>
                 <element signature="n#!!block;n#devDependencies#0;n#!!top" expanded="false" />
                 <element signature="n#!!block;n#dependencies#0;n#!!top" expanded="false" />
@@ -317,12 +316,12 @@
       <option name="presentableId" value="Default" />
       <updated>1484090270617</updated>
       <workItem from="1484090272159" duration="11650000" />
-      <workItem from="1484177931900" duration="1404000" />
+      <workItem from="1484177931900" duration="1468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13054000" />
+    <option name="totallyTimeSpent" value="13118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1916" y="23" width="1140" height="1111" extended-state="0" />
@@ -603,8 +602,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="240">
+          <caret line="67" column="4" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
           <folding>
             <element signature="n#!!block;n#devDependencies#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#dependencies#0;n#!!top" expanded="false" />
