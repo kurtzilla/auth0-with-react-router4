@@ -1,15 +1,12 @@
 import decode from 'jwt-decode';
 import {EventEmitter} from 'events';
 import React, {Component, PropTypes} from 'react';
-// import {BrowserRouter} from 'react-router';
-
-
-
 import Auth0Lock from 'auth0-lock';
 
 const NEXT_PATH_KEY = 'next_path';
 const LOGIN_ROUTE = '/login';
 const ROOT_ROUTE = '/';
+// key names have been updated from original source
 const ID_TOKEN_KEY = 'auth0_id_token';
 const ACCESS_TOKEN_KEY = 'auth0_access_token';
 const PROFILE_KEY = 'auth0_profile';
@@ -52,6 +49,7 @@ lock.on('authenticated', authResult => {
 // now we can redirect!
 
 
+// v4 - pass in the router and assign to lock object
 export function login(nextPath, router) {
   setNextPath(nextPath);
   lock.router = router;
@@ -64,12 +62,12 @@ export function login(nextPath, router) {
   }
 }
 
+// v4 - pass in the router
 export function logout(router) {
   clearNextPath();
   clearIdToken();
   clearProfile();
   router.transitionTo(ROOT_ROUTE);
-  // browserHistory.push(LOGIN_ROUTE);
 }
 
 export function requireAuth(nextState, replace) {
@@ -214,6 +212,7 @@ function clearNextPath() {
   localStorage.removeItem(NEXT_PATH_KEY);
 }
 
+// v4 - export function
 export function isLoggedIn() {
   const idToken = getIdToken();
   return idToken && !isTokenExpired(idToken);

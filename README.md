@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+I then ejected the project and added in a few changes to incoporate the Auth0 lock widget.
+
+I also changed out the current stable version of react-router and have implmented react-router v4
+
+
+
+
+
+
+
+
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 

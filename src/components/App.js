@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Link, Match, Redirect } from 'react-router';
-
 import { isLoggedIn, logout } from '../auth';
 
 import Home from './Home';
